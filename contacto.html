@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="css/estilos.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  </head>
+
+  <body>
+
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <a href="index.html" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+        <img src="imagenes/logo2.png" >
+      </a>
+
+      <form class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+        <input type="search" class="form-control form-control-dark" placeholder="Buscar..." aria-label="Search">
+      </form>
+
+      <div class="col-md-3 text-end">
+        <a href="contacto.html"><img src="imagenes/mail3.png" /></a>
+      </div>
+    </header>
+
+      <div align="center">
+        <h1>Formulario de contacto</h1><br>
+        <h3>Escríbenos y en breve los pondremos en contacto contigo</h3><br><br>
+
+        <form>
+        	<table>
+        		<tr>
+        			<td> <label>Nombre: </label></td>
+        			<td><input type="text" name="introducir_nombre" id="nombre" placeholder="Escribe tu nombre"/></td>
+        		</tr>
+        		<tr>
+        			<td><label>Email: </label></td>
+        			<td><input type="email" name="introducir_email" id="email" placeholder="Escribe tu Email"/></td>
+        		</tr>
+        		<tr>
+        			<td><label>Teléfono: </label></td>
+        			<td><input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono" /></td>
+        		</tr>
+        		<tr>
+        			<td><label>Sexo: </label></td>
+        			<td align="center">
+        				<select>
+              				<option>Masculino</option>
+              				<option>Femenino</option>
+              				<option>Otro</option>
+            			</select>
+        			</td>
+        		</tr>
+        		<tr>
+        			<td><label>¿Desea recibir información<br>
+        					   sobre nosotros?</label></td>
+        			<td align="center"><input type="checkbox" /></td>
+        		</tr>
+        		<tr>
+        			<td><label>Mensaje: </label></td>
+        			<td>
+        				<textarea name="introducir_mensaje" id="mensaje" placeholder="Deja aquí tu comentario..." ></textarea>
+        			</td>
+        		</tr>
+        		<tr>
+        			<td align="center"><button type="submit" name="enviar_formulario" id="enviar">Enviar</button></td>
+        			<td align="center"><button type="reset" name="limpiar" id="limpiar">Limpiar formulario</button></td>
+        		</tr>
+        	</table><br>
+
+        </form>
+      </div>
+
+    <footer>
+      Satiago Restrepo Molina WEB &copy; 2021
+    </footer>
+
+  </body>
+</html>
